@@ -1,7 +1,7 @@
 # createevent-delphi
 Basic delphi code illustrating the use of createvent, setevent, waitforsingleobject but also queueuserapc and setthreadcontext.
 
-Demo1
+-Demo1
 
 createevent
 
@@ -11,7 +11,7 @@ setevent repeatedly
 
 thread will wakeup each time
 
-Demo2
+-Demo2
 
 ceatevent
 
@@ -21,7 +21,7 @@ setevent
 
 thread terminates
 
-Demo3
+-Demo3
 
 createevent
 
@@ -35,7 +35,7 @@ wait2 code terminates
 
 sleep1 resumes
 
-Demo4
+-Demo4
 
 createevent
 
@@ -45,7 +45,7 @@ QueueUserAPC & setevent : inject setevent in above thread (passing our event han
 
 sleep1 will resume at once (sleepex is alertable)
 
-Demo5
+-Demo5
 
 createevent
 
